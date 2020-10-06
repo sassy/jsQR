@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   entry: {
     './dist/jsQR.js': './src/index.ts',
@@ -10,7 +12,8 @@ module.exports = {
     library: "jsQR",
   },
   resolve: {
-    extensions: [".ts"]
+    extensions: [".ts", ".js"],
+    modules: [path.resolve(__dirname, "src"), "node_modules"]
   },
   module: {
     rules: [

@@ -1,4 +1,5 @@
 // tslint:disable:no-bitwise
+//@ts-ignore
 import * as assert from "assert";
 import { BitStream } from "./BitStream";
 import { shiftJISTable } from "./shiftJISTable";

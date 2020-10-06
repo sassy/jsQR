@@ -3,7 +3,8 @@
     "module": "commonjs",
     "noImplicitAny": true,
     "target": "es5",
-    "typeRoots": [],
+    "typeRoots": [
+    ],
     "declaration": true,
     "outDir": "./dist",
     "newLine": "LF"
